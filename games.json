@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Starfall",
+    "thumbnail": "assets/thumb1.png",
+    "cover": "assets/cover1.png",
+    "playlink": "https://example.com/play/starfall",
+    "genre": "Action"
+  },
+  {
+    "title": "Mystic Vale",
+    "thumbnail": "assets/thumb2.png",
+    "cover": "assets/cover2.png",
+    "playlink": "https://example.com/play/mystic-vale",
+    "genre": "Adventure"
+  }
+]
