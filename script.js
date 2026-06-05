@@ -47,8 +47,7 @@ function renderGames(games){
 
     // Play control: use the Download.png image only (no text)
     const link = document.createElement('a');
-    const playUrl = game.cdnHtml ? `${CDN_BASE_URL}${game.cdnHtml}` : (game.playlink || '#');
-    link.href = playUrl;
+    link.href = game.playlink || '#';
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.className = 'play-btn';
