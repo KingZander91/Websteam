@@ -1,3 +1,5 @@
+const CDN_BASE_URL = 'https://cdn.example.com/websteam/games/';
+
 async function loadGames(){
   try{
     const res = await fetch('games.json');
@@ -45,12 +47,14 @@ function renderGames(games){
 
     // Play control: use the Download.png image only (no text)
     const link = document.createElement('a');
-    link.href = game.playlink || '#';
+    const playUrl = game.cdnHtml ? `${CDN_BASE_URL}${game.cdnHtml}` : (game.playlink || '#');
+    link.href = playUrl;
     link.target = '_blank';
+    link.rel = 'noopener noreferrer';
     link.className = 'play-btn';
     const img = document.createElement('img');
     img.src = 'assets/Download.png';
-    img.alt = 'Download';
+    img.alt = 'Play';
     link.appendChild(img);
 
     actions.appendChild(link);

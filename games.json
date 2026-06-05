@@ -4,6 +4,7 @@
     "thumbnail": "assets/thumb1.png",
     "cover": "assets/cover1.png",
     "playlink": "https://example.com/play/starfall",
+    "cdnHtml": "starfall.html",
     "genre": "Action"
   },
   {
@@ -11,6 +12,7 @@
     "thumbnail": "assets/thumb2.png",
     "cover": "assets/cover2.png",
     "playlink": "https://example.com/play/mystic-vale",
+    "cdnHtml": "mystic-vale.html",
     "genre": "Adventure"
   }
 ]
