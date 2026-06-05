@@ -27,7 +27,7 @@ body{
 .library{flex:1; padding:20px; overflow:auto; display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:18px}
 .game-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:8px; overflow:hidden; box-shadow:0 6px 18px rgba(2,6,15,0.6); display:flex; flex-direction:column}
 .cover{height:140px; background-size:cover; background-position:center; position:relative}
-.thumb{position:absolute; left:16px; bottom:-28px; width:96px; height:96px; border-radius:8px; border:4px solid rgba(0,0,0,0.6); box-shadow:0 6px 18px rgba(2,6,15,0.5)}
+.thumb{position:absolute; left:50%; transform:translateX(-50%); bottom:-28px; width:96px; height:96px; border-radius:8px; border:4px solid rgba(0,0,0,0.6); box-shadow:0 6px 18px rgba(2,6,15,0.5)}
 .card-body{padding:44px 16px 16px 16px; display:flex; align-items:center; justify-content:space-between}
 .title{font-size:16px; font-weight:700}
 .actions{display:flex; gap:8px; align-items:center}
