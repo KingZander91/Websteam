@@ -1,11 +1,11 @@
 [
   {
-    "title": "Starfall",
+    "title": "Hollow Knight",
     "thumbnail": "assets/thumb1.png",
     "cover": "assets/cover1.png",
-    "playlink": "https://example.com/play/starfall",
-    "cdnHtml": "starfall.html",
-    "genre": "Action"
+    "playlink": "https://cdn.jsdelivr.net/gh/aukak/hollow-knight@main/index.html",
+    "cdnHtml": "index.html",
+    "genre": "Action, Adventure"
   },
   {
     "title": "Mystic Vale",
