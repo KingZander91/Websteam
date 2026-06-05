@@ -43,18 +43,15 @@ function renderGames(games){
     const actions = document.createElement('div');
     actions.className = 'actions';
 
-    // Play button uses the Download.png image for all games
+    // Play control: use the Download.png image only (no text)
     const link = document.createElement('a');
     link.href = game.playlink || '#';
     link.target = '_blank';
-    link.className = 'play-link';
+    link.className = 'play-btn';
     const img = document.createElement('img');
     img.src = 'assets/Download.png';
     img.alt = 'Download';
-    const txt = document.createElement('span');
-    txt.textContent = 'Play';
     link.appendChild(img);
-    link.appendChild(txt);
 
     actions.appendChild(link);
 
